@@ -565,6 +565,15 @@ MonoBehaviour:
     correctAnswer: 1
     correctResponse: lol
     wrongResponse: lol
+  - question: What's my year level and degree program?
+    choices:
+    - IV - BS Mechanical Engineering
+    - III - BS Computer Science
+    - IV - BS Computer Science
+    - III - BS Mechanical Engineering
+    correctAnswer: 2
+    correctResponse: Unfortunately, you are correct T-T
+    wrongResponse: Unfortunately, you are wrong T-T
   - question: Name a hobby of mine.
     choices:
     - Crochet
@@ -574,16 +583,7 @@ MonoBehaviour:
     correctAnswer: 2
     correctResponse: Yup! I mainly make electronic music :)
     wrongResponse: bruh I don't do that as a hobby.
-  - question: What was my grade in CS138 - Numerical Computing II?
-    choices:
-    - 2.50
-    - 2.25
-    - 1.50
-    - 2.75
-    correctAnswer: 0
-    correctResponse: That subject was hard af..
-    wrongResponse: Wrong!
-  - question: I shifted into BS Computer Science from what course?
+  - question: I shifted into my current degree program from what course?
     choices:
     - BS Industrial Engineering
     - BS Computer Engineering
@@ -601,6 +601,15 @@ MonoBehaviour:
     correctAnswer: 1
     correctResponse: Kinda obvious considering what you're playing rn,,
     wrongResponse: Nope! But I might try getting into it someday
+  - question: What vegetable do I hate?
+    choices:
+    - Okra
+    - Pechay (Snow Cabbage)
+    - Carrot
+    - Mung Bean Sprouts
+    correctAnswer: 0
+    correctResponse: I HATE OKRA
+    wrongResponse: Nah I actually liek this
   - question: What was my first Pokemon game?
     choices:
     - Pokemon HeartGold/SoulSilver
@@ -647,6 +656,15 @@ MonoBehaviour:
     correctAnswer: 2
     correctResponse: GotG made me tear up man...
     wrongResponse: No, but still love that movie to death!
+  - question: Why do I want to join UP CSI (Center for Student Innovations)?
+    choices:
+    - To learn more about software eng'g
+    - To make new friends
+    - For the siomai rice
+    - All of the above
+    correctAnswer: 3
+    correctResponse: Correct! Hope I get in...
+    wrongResponse: Well, that's partially correct..
   - question: What letter am I thinking of right now?
     choices:
     - A) D
@@ -2164,7 +2182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac1739fec0029c34cba416d6df5d4c72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxTimer: 5
+  _maxTimer: 6
   _timerText: {fileID: 1353007134}
   timer: 0
 --- !u!1 &1661423699
